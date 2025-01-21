@@ -10,6 +10,7 @@ function HomeGallery() {
     <h1 className='text-white font-bold ml-3'>Popular on Netflix</h1>
     </div>
     <div className='w-full flex items-center justify-start gap-1 ml-3'>
+         {/* Looping through the data array to display movies 11 through 15 */}
      {data.slice(0,5).map((item)=>{
         return(
             <div key={item.id} className='w-64 h-auto flex-shrink-0'>
