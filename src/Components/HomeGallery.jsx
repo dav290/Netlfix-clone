@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { Infos } from '../dummy'
+import { Infos } from '../dummy'// Importing data from a dummy file
 function HomeGallery() {
+    // Using React's useState hook to manage the data for the gallery
     const [data,setData]=useState(Infos)
   return (
     <div className='w-full'>
