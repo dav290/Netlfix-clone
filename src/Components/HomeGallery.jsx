@@ -5,6 +5,7 @@ function HomeGallery() {
     const [data,setData]=useState(Infos)
   return (
     <div className='w-full'>
+         {/* Section Header */}
     <div className='w-full flex items-center justify-start py-2'>
     <h1 className='text-white font-bold ml-3'>Popular on Netflix</h1>
     </div>
